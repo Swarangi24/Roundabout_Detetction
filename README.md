@@ -1,11 +1,10 @@
 # Roundabout Detection for Database Integration  
-## Team: Code_Wizards
 
-### Problem Statement 2:  
+### Problem Statement :  
 **Detecting Missing Roundabouts for Database Integration**
 
 ### Objective:
-Our goal is to detect roundabouts from provided geometry data and integrate them into the database. The challenge involves identifying roundabouts based on spatial patterns and geometry characteristics, even when attribute data is missing.
+To detect roundabouts from provided geometry data and integrate them into the database. The challenge involves identifying roundabouts based on spatial patterns and geometry characteristics, even when attribute data is missing.
 
 ---
 
@@ -37,7 +36,7 @@ Our goal is to detect roundabouts from provided geometry data and integrate them
 
 ### Folder Structure:
 
-eam-Code_Wizards/
+Here/
 ├── HERE.ipynb # Jupyter notebook with data processing and analysis
 ├── polygon.qmd # Quarto Markdown summary of our process
 ├── polygon.shp # Shapefile (main geometry data)
@@ -69,16 +68,3 @@ To view and validate the `.geojson` files visually:
    - `region 2.geojson`
    - `region 3.geojson`
 3. The geometries will be rendered on the interactive map.
-
-
----
-
-## 🚀 How to Run the Notebook
-
-1. Clone the repository:
-git clone https://github.com/{your-username}/HERE_SPIT_HACKATHON_2025.git
-
-2. Navigate to your team folder:
-cd HERE_SPIT_HACKATHON_2025/team-Code_Wizards
-
-3. Open `HERE.ipynb` in Jupyter Notebook and run the cells step-by-step.
